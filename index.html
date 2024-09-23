@@ -175,20 +175,43 @@
   </div>
 </section>
 
-<!-- <section class="hero teaser">
+<section class="section">
   <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video id="teaser" autoplay muted loop playsinline height="100%">
-        <source src="./static/videos/teaser.mp4"
-                type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        <span class="dnerf">Nerfies</span> turns selfie videos from your phone into
-        free-viewpoint
-        portraits.
-      </h2>
+        <!-- Paper video. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <div class="publication-video">
+          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/video_final.m4v"
+                    type="video/mp4">
+          </video>
+        </div>
+      </div>
     </div>
-  </div>
+
+    <br/>
+    <br/>
+
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            While tactile sensing is widely accepted as an important and useful sensing modality, its use pales in comparison to other sensory modalities like vision and proprioception. AnySkin addresses the critical challenges of versatility, replaceability, and data reusability, which have so far impeded the development of an effective solution.
+          </p>
+          <p>
+            Building on the simplistic design of ReSkin, and decoupling the sensing electronics from the sensing interface, AnySkin simplifies integration making it as straightforward as putting on a phone case and connecting a charger. Furthermore, AnySkin is the first sensor with cross-instance generalizability of learned manipulation policies.
+          </p>
+          <p>
+            This work makes three key contributions: first, we introduce a streamlined fabrication process and a design tool for creating an adhesive-free, durable and easily replaceable magnetic tactile sensor; second, we characterize slip detection and policy learning with a AnySkin sensor; and finally, we demonstrate the generalizability of models trained on one instance of AnySkin to new instances, and compare it with popular existing tactile solutions like DIGIT and ReSkin.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+
 </section>
 
 
@@ -205,7 +228,7 @@
         </div>
         <div class="column">
           <div class="content has-text-centered">
-            <img src="./static/images/anyskin_fig1_portrait.png" alt="AnySkin Figure 1"/>
+            <img src="./static/images/fig1_final-compressed-1.png" alt="ViSk Figure 1"/>
           </div>
         </div>
     </div>
@@ -271,9 +294,9 @@
         </div>
       </div>
       <div class="column">
-          <h3 class="title is-4">Cross-Instance Generalization Results</h3>
+          <h3 class="title is-4">Policy Performance Results</h3>
         <div class="content has-text-centered">
-          <img src="./static/images/cross-instance-generalization.png" alt="Cross-instance Generalization" />
+          <img src="./static/images/policy.png" alt="Policy Performance" />
         </div>
       </div>
     </div>
@@ -326,7 +349,7 @@
       <div class="column is-full-width">
         <div class="content">
           <!-- <h3 class="title is-4">Comparison Across Sensors -- Plug Insertion</h3> -->
-          <img src="./static/images/comparison-across-sensors-plot2.png" alt="Comparison across sensors" />
+          <img src="./static/images/sensor.png" alt="Comparison across sensors" />
         </div>
       </div>
     </div>
